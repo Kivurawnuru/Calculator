@@ -12,6 +12,29 @@ public class Calculator {
 
 
     /**
+     * substracting two numbers
+     * @param numberOne
+     * @param numberTwo
+     * @return result
+     */
+    public static int sub(int numberOne, int numberTwo){
+        return numberOne-numberTwo;
+    }
+
+
+    /**
+     * multiplying two numbers
+     * @param numberOne
+     * @param multiplicator
+     * @return result
+     */
+    public static int multiplication(int numberOne, int multiplicator){
+        return numberOne*multiplicator;
+    }
+
+
+
+    /**
      * dividing number with divisor
      * @param numberOne
      * @param divisor
@@ -20,5 +43,6 @@ public class Calculator {
     public static int divide(int numberOne, int divisor){
         return numberOne/divisor;
     }
+
 
 }

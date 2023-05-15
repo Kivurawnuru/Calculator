@@ -24,4 +24,12 @@ public class CalculatorTester {
         Throwable exception = assertThrows(java.lang.ArithmeticException.class, () -> Calculator.divide(5,0));
         assertEquals("/ by zero",exception.getMessage());
     }
+    @Test
+    void substractingShouldWork(){
+        assertEquals(3,Calculator.sub(5,2));
+    }
+
+    @Test
+    void multiplicatingTwoDiffetentNumbers
+
 }
