@@ -30,6 +30,7 @@ public class CalculatorTester {
     }
 
     @Test
-    void multiplicatingTwoDiffetentNumbers
-
+    void multiplicatingTwoDiffetentNumbers(){
+        assertEquals(10,Calculator.multiplication(5,2));
+    }
 }
